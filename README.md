@@ -1,3 +1,5 @@
 # Reproducing-and-Extending-the-CycleGAN-Model
 
 Chen Yang, Yanliang Chen, and Zhisheng Hua
+
+As a popular type of unsupervised learning model, GANs are powerful in generating new, unseen data within a given domain, which can lead to a series of creative applications. One such application is image-to-image translation. CycleGAN has been a successful model in performing this task. It consists of adversarial loss and cycle consistency loss so that GAN’s potential in data generation can be revealed without the limitation of paired input data. In this project, we will reproduce the CycleGAN model to realize the unpaired image-to-image translation based on several selected datasets. We will also try to perform comparison experiments in order to understand the effects of different parts of the CycleGANs loss function. Experiment results will be evaluated qualitatively and quantitatively to show the importance of both adversarial loss and cycle consistency loss. Our experiments will also show that the performance of the CycleGAN model could potentially be limited by specific datasets.
